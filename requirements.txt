@@ -1,0 +1,1 @@
+# No hay dependencias externas, pero Render exige este archivo para saber que es Python

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: foxybrowsermax-chat
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python server.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      - key: PORT
+        value: 8888
